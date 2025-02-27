@@ -27,7 +27,7 @@ std::string String::reverseString()
 }
 
 std::string String::getValue()
-{  // Ïîâåðòàº ðÿäîê value.
+{ 
     return value;
 }
 
