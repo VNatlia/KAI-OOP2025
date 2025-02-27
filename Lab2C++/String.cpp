@@ -8,7 +8,7 @@ String::String(String& other) : value(other.value) {}
 
 String::~String()
 {
-    std::cout << "Äåñòðóêòîð âèêëèêàíî äëÿ: " << value << std::endl;                                                 
+    std::cout << "Ð”ÐµÑÑ‚Ñ€ÑƒÐºÑ‚Ð¾Ñ€ Ð²Ð¸ÐºÐ»Ð¸ÐºÐ°Ð½Ð¾ Ð´Ð»Ñ: " << value << std::endl;                                                 
 }
 
 size_t String::getLength()
@@ -27,7 +27,7 @@ std::string String::reverseString()
 }
 
 std::string String::getValue()
-{  // Ïîâåðòàº ðÿäîê value.
+{  // ÃÃ®Ã¢Ã¥Ã°Ã²Ã Âº Ã°Ã¿Ã¤Ã®Ãª value.
     return value;
 }
 
