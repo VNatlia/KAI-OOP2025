@@ -24,6 +24,11 @@
             Console.WriteLine(prefix + value);
         }
 
+          public void PrintString() //перевант метода
+        {
+      Console.WriteLine(value);
+        }
+
         public static StringClass operator +(StringClass s1, StringClass s2) //перевантаж. оператора+
         {
             return new StringClass(s1.value + s2.value);
