@@ -12,14 +12,14 @@ private:
 public:
     String();
     String(std::string val);
-    String(const String& other); //конструкт. копіювання
+    String(const String& other); //РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ РєРѕРїС–СЋРІР°РЅРЅСЏ
     ~String();
 
     size_t getLength();
     std::string getValue();
-    std::string getValue(std::string); //перевантаж. метод
+    std::string getValue(std::string); //РїРµСЂРµРЅР°РІР°РЅС‚Р°Р¶РµРЅРЅСЏ РјРµС‚РѕРґР°
 
-    String operator+(const String& other)const; //перевантаж оператор
+    String operator+(const String& other)const; //РїРµСЂРµРЅР°РІР°РЅС‚Р°Р¶РµРЅРЅСЏ РѕРїРµСЂР°С‚РѕСЂР°
     String operator-(char ch) ;
 };
 
