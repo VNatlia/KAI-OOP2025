@@ -2,32 +2,33 @@
 #include <algorithm>
 #include <string>
 
-String::String() : value("") {} //конструкт. за замовчуванням
+String::String() : value("") {} //РєРѕРЅСЃС‚СЂСѓРєС‚. Р·Р° Р·Р°РјРѕРІС‡СѓРІР°РЅРЅСЏРј
 
-String::String(std::string val) : value(val) {} //конструкт. параметр
+String::String(std::string val) : value(val) {} //РєРѕРЅСЃС‚СЂСѓРєС‚. РїР°СЂР°РјРµС‚СЂ
 
-String::String(const String& other) : value(other.value) {} //конструкт. копіювання
+String::String(const String& other) : value(other.value) {} //РєРѕРЅСЃС‚СЂСѓРєС‚. РєРѕРїС–СЋРІР°РЅРЅСЏ
 
-String::~String() //деструктор
+
+String::~String() //РґРµСЃС‚СЂСѓРєС‚РѕСЂ
 {
-    std::cout << "Деструктор викликано для: " << value << std::endl;
+    std::cout << "Р”РµСЃС‚СЂСѓРєС‚РѕСЂ РІРёРєР»РёРєР°РЅРѕ РґР»СЏ: " << value << std::endl;
 }
 
-size_t String::getLength() //метод оримання довж. рядка
+size_t String::getLength() //РјРµС‚РѕРґ РѕСЂРёРјР°РЅРЅСЏ РґРѕРІР¶. СЂСЏРґРєР°
 {
     return value.length();
 }
 
-std::string String::getValue() //метод отрим. значень рядка
+std::string String::getValue() //РјРµС‚РѕРґ РѕС‚СЂРёРј. Р·РЅР°С‡РµРЅСЊ СЂСЏРґРєР°
 {
     return value;
 }
-std::string String::getValue(std::string prefix) //перенавантаження метода 
+std::string String::getValue(std::string prefix) std::string String::getValue(std::string prefix) //РїРµСЂРµРЅР°РІР°РЅС‚Р°Р¶РµРЅРЅСЏ РјРµС‚РѕРґР° 
 {
     return prefix + value;
 }
 
-String String::operator+(const String& other) const //перевантаж. оператора+
+String String::operator+(const String& other) const //РїРµСЂРµРІР°РЅС‚Р°Р¶. РѕРїРµСЂР°С‚РѕСЂР°+
 {
     return String(value + other.value);
 }
