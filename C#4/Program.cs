@@ -1,5 +1,5 @@
 ﻿using System;
-using FiguresLib; // Підключаємо бібліотеку
+using FiguresLib; 
 
 class Program
 {
