@@ -3,7 +3,7 @@
     public class Triangle : Figure //наслідування
     {
       
-        public Triangle() : base() { } //коли визив коннструктор визив реалізацію конструктора базового класу
+        public Triangle() : base() { } 
 
         public Triangle(double ax1, double ay1, double ax2, double ay2, double ax3, double ay3)
             : base(ax1, ay1, ax2, ay2, ax3, ay3) { }
