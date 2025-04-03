@@ -1,0 +1,14 @@
+D:\KAI 2 семестр ООП\каі ооп\OOPKAI\C#4\bin\Debug\net8.0\C#4.exe
+D:\KAI 2 семестр ООП\каі ооп\OOPKAI\C#4\bin\Debug\net8.0\C#4.deps.json
+D:\KAI 2 семестр ООП\каі ооп\OOPKAI\C#4\bin\Debug\net8.0\C#4.runtimeconfig.json
+D:\KAI 2 семестр ООП\каі ооп\OOPKAI\C#4\bin\Debug\net8.0\C#4.dll
+D:\KAI 2 семестр ООП\каі ооп\OOPKAI\C#4\bin\Debug\net8.0\C#4.pdb
+D:\KAI 2 семестр ООП\каі ооп\OOPKAI\C#4\obj\Debug\net8.0\C#4.GeneratedMSBuildEditorConfig.editorconfig
+D:\KAI 2 семестр ООП\каі ооп\OOPKAI\C#4\obj\Debug\net8.0\C#4.AssemblyInfoInputs.cache
+D:\KAI 2 семестр ООП\каі ооп\OOPKAI\C#4\obj\Debug\net8.0\C#4.AssemblyInfo.cs
+D:\KAI 2 семестр ООП\каі ооп\OOPKAI\C#4\obj\Debug\net8.0\C#4.csproj.CoreCompileInputs.cache
+D:\KAI 2 семестр ООП\каі ооп\OOPKAI\C#4\obj\Debug\net8.0\C#4.dll
+D:\KAI 2 семестр ООП\каі ооп\OOPKAI\C#4\obj\Debug\net8.0\refint\C#4.dll
+D:\KAI 2 семестр ООП\каі ооп\OOPKAI\C#4\obj\Debug\net8.0\C#4.pdb
+D:\KAI 2 семестр ООП\каі ооп\OOPKAI\C#4\obj\Debug\net8.0\C#4.genruntimeconfig.cache
+D:\KAI 2 семестр ООП\каі ооп\OOPKAI\C#4\obj\Debug\net8.0\ref\C#4.dll
