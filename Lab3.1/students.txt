@@ -1,0 +1,54 @@
+Student NataliiaVolynets
+{
+"firstname": "Nataliia",
+"lastname": "Volynets",
+"studentId": "KB123456",
+"passport": "AA121245",
+"height": 170,
+"weight": 60,
+}
+Student OlenaVolynets
+{
+"firstname": "Olena",
+"lastname": "Volynets",
+"studentId": "KB344444",
+"passport": "BB676767",
+"height": 175,
+"weight": 90,
+}
+Student MuskElon
+{
+"firstname": "Musk",
+"lastname": "Elon",
+"studentId": "KB112233",
+"passport": "CC444455",
+"height": 180,
+"weight": 85,
+}
+Student MariZendaya
+{
+"firstname": "Mari",
+"lastname": "Zendaya",
+"studentId": "KB323232",
+"passport": "DD121212",
+"height": 176,
+"weight": 66,
+}
+Student TomHolland
+{
+"firstname": "Tom",
+"lastname": "Holland",
+"studentId": "KB134110",
+"passport": "EE567890",
+"height": 180,
+"weight": 70,
+}
+Student TimotheeChallamet
+{
+"firstname": "Timothee",
+"lastname": "Challamet",
+"studentId": "KB203040",
+"passport": "FF600564",
+"height": 175,
+"weight": 70,
+}
