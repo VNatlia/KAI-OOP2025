@@ -71,10 +71,10 @@ namespace Lab3._1.Files
                         weight = int.Parse(line.Split(':')[1].Trim().TrimEnd(','));
                     
 
-                    if (line == "}") //до кінця секції дійшли то закриває дані
+                    if (line == "}") 
                     {
 
-                        if (id != null) //вага, якщо юзес есть
+                        if (id != null) 
                         {
 
                             bool isIdeal = (height - 110) == weight;
