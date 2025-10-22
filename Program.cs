@@ -1,17 +1,38 @@
 ﻿using System;
-using StringLibrary;
+using System.Collections;
+using System.Collections.Generic;
+using Lab3._2;
 
 class Program
 {
     static void Main()
     {
-        Digits d = new Digits("1234556789");
-        Letters l = new Letters("Alphabet with a and A");
+       Console.OutputEncoding = System.Text.Encoding.UTF8;
 
-        Console.WriteLine("--- Digits ---");
-        DisplayInformation.ProcessString(d);
+        Vector[] array = {
+            new Vector("Red", 3, 4),
+            new Vector("Blue", 1, 2),
+            new Vector("Green", 0, 5)
+        };
 
-        Console.WriteLine("\n--- Letters ---");
-        DisplayInformation.ProcessString(l);
+        Console.WriteLine("Масив ");
+        foreach (var v in array) v.PrintInfo();
+
+        // List<T>
+        List<Vector> list = new List<Vector>(array);
+        list.Add(new Vector("Yellow", 2, 6));
+        list[0].Increase(1, 1); 
+        list.RemoveAt(1);        
+        Console.WriteLine("\nList<T>");
+        foreach (var v in list) v.PrintInfo();
+
+        // ArrayList 
+        ArrayList arrayList = new ArrayList();
+        arrayList.Add(new Vector("Orange", 2, 3));
+        arrayList.Add(new Vector("Purple", 5, 5));
+        Console.WriteLine("\nArrayList");
+        foreach (Vector v in arrayList) v.PrintInfo();
+
+        BinaryNode.Run();
     }
 }
