@@ -6,23 +6,13 @@
     <Y>4</Y>
   </Vector>
   <Vector>
-    <Color>Blue</Color>
-    <X>1</X>
-    <Y>2</Y>
-  </Vector>
-  <Vector>
     <Color>Green</Color>
     <X>0</X>
     <Y>5</Y>
   </Vector>
   <Vector>
-    <Color>Yellow</Color>
-    <X>5</X>
-    <Y>12</Y>
-  </Vector>
-  <Vector>
-    <Color>Purple</Color>
-    <X>8</X>
-    <Y>15</Y>
+    <Color>Blue</Color>
+    <X>1</X>
+    <Y>2</Y>
   </Vector>
 </ArrayOfVector>
