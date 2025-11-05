@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfStudent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Student>
+    <LastName>Volynets</LastName>
+    <FirstName>Natalia</FirstName>
+    <Height>170</Height>
+    <Weight>60</Weight>
+    <StudentID>123321</StudentID>
+    <Passport>12344213</Passport>
+  </Student>
+</ArrayOfStudent>

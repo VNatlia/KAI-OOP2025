@@ -1,0 +1,11 @@
+[
+  {
+    "LastName": "Volynets",
+    "FirstName": "Natalia",
+    "Height": 170,
+    "Weight": 60,
+    "StudentID": "123321",
+    "Passport": "123456",
+    "IsIdealWeight": true
+  }
+]
